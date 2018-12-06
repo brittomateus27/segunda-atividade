@@ -355,43 +355,43 @@
           <div class="subheading mb-3">Linguagens, Sistemas &amp; Ferramentas</div>
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
-              <i class="fas fa-brain"></i>
+              <i class="fas fa-brain" title="Cerébro"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
+              <i class="fab fa-html5" title="HTML5"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-css3-alt" title="CSS3"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
+              <i class="fab fa-js-square" title="JavaScript"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fas fa-layer-group"></i>
+              <i class="fas fa-layer-group" title="Bootstrap"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-joomla"></i>
+              <i class="fab fa-joomla" title="Joomla!"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fas fa-bezier-curve"></i>
+              <i class="fas fa-bezier-curve" title="Imagens Vetoriais"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fas fa-atom"></i>
+              <i class="fas fa-atom" title="Atom"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-git-square"></i>
+              <i class="fab fa-git-square" title="Versionamento de código"></i>
             </li>
             <li class="list-inline-item">
               <i class="fab fa-github"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-linux"></i>
+              <i class="fab fa-linux" title="Manjaro & KDE Plasma"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-android"></i>
+              <i class="fab fa-android" title="Android"></i>
             </li>
             <li class="list-inline-item">
-              <i class="far fa-file-excel"></i>
+              <i class="far fa-file-excel" title="Excel"></i>
             </li>
           </ul>
 
@@ -417,17 +417,24 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contato">
         <div class="my-auto">
-          <h2 class="mb-5">Fale comigo</h2>
+          <h2 class="mb-5">Entre em Contato</h2>
 
-        <div class="subheading mb-3">Contato</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fas fa-terminal"></i>
-              Página em desenvolvimento</li>
-            <li><p></p>
-              <i class="fa-li fas fa-exclamation-circle text-warning"></i>
-              ...enquanto isso, fale comigo através das minhas <a class="nav-link js-scroll-trigger" href="#sobre">redes sociais ;)</a></li>
-          </ul>
+        <div class="subheading mb-3">Terei o prazer de melhor atendê-lo sempre ;)</div>
+        <div class="container">
+          <form class="text-center" action="" method="post">
+            <p>
+              <input class="form-control" id="nome" type="text" placeholder="Escreva seu nome completo">
+            </p>
+            <p>
+              <input class="form-control" id="email" type="email" placeholder="Digite um e-mail válido">
+            </p>
+            <p>
+              <textarea class="form-control" placeholder="Escreva aqui sua mensagem"></textarea>
+            </p>
+            <p>
+              <input class="btn btn-lg btn-block btn-primary" type="submit" value="Enviar" onclick="Enviar()">
+            </p>
+          </form>
         </div>
       </section>
 
@@ -446,6 +453,8 @@
     <!-- MDB Lightbox Init -->
     <script src="js/gallery.js"></script>
 
+    <!-- Script para Contato -->
+    <script src="js/my.js"></script>
   </body>
 
 </html>
